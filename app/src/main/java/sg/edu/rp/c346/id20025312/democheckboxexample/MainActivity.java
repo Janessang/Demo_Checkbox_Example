@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     double pay = calcPay(100,0);
                     tvShow.setText("The discount is not given. You need to pay " + pay);
                 }
-                Toast.makeText(MainActivity.this, "Button Click", Toast.LENGTH_LONG).show();
+
             }
 
         });
